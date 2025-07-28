@@ -39,23 +39,25 @@ This project analyzes the Breast Cancer Wisconsin dataset to explore how differe
 
 - `BreastCancerAnalysis.py` – main file with all of the code
 - `README.md` – project overview (this file)
-- `Breast Cancer Wisconsin.csv` – original dataset (you can link to UCI if not uploading the file directly)
-- `images/` – contains saved plots (optional)
+- `Breast Cancer Wisconsin.csv` – original dataset
+- `images/` – contains saved plots
 
 ---
 
 ## Sample Visualizations
 
-
+### Full Correlation Heatmap
+Shows the relationships between all of the tumor features:
+(images/full_correlation_heatmap.png)
 
 ---
 
 ## Author
 
-- Jenna M. – Computer Science & Data Science student
+- Jenna M. – Computer Science student
 
 ---
 
 ## Dataset Source
 
-- []()
+- [Kaggle - Breast Cancer Wisconsin (Diagnostic)](https://www.kaggle.com/datasets/iamtanmayshukla/breast-cancer-diagnostic-data-set/discussion?sort=hotness)
