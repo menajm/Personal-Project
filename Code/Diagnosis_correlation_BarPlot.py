@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # Load csv file
 df = pd.read_csv(r'C:\Users\Jmmen\OneDrive\Desktop\Projects\Breast Cancer Wisconsin.csv')
 
-# ----------Below is the setup of the Heatmap---------
+# ----------Below is the setup of the barplot---------
 
 # Convert the diagnosis to numeric: Malignant = 1
 # Benign = 0
