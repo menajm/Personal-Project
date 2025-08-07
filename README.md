@@ -21,10 +21,11 @@ The analysis identifies which tumor features most strongly correlate with malign
 
 ## Files
 
-- `BreastCancerAnalysis.py` – main file with all of the code
+- `BreastCancerAnalysis.py` – main file with all of the code for the visualizations
+- `Predict_Tumor.py` - code for the prediction model
 - `README.md` – project overview (this file)
 - `Breast Cancer Wisconsin.csv` – original dataset
-- `images/` – contains saved visualizations
+- `images/` – contains the visualizations
 
 ---
 
@@ -43,6 +44,7 @@ The analysis identifies which tumor features most strongly correlate with malign
 - Boxplots comparing top predictive features by diagnosis
 - Scatterplots comparing mean vs. worst tumor measurements
 - Custom **Severity Index** based on top features
+- Prediction model which shows the likihood of a tumor being malignant and benign
 
 ### Key Findings
 
