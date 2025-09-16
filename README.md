@@ -33,7 +33,7 @@ The analysis identifies which tumor features most strongly correlate with malign
 
 - Dropped ID and unnamed columns.
 - Converted `diagnosis` column to binary (`M` → 1, `B` → 0).
-- Verified data types and cleaned missing values (none in this dataset).
+- Verified data types and ensured that there is no missing values (none in this dataset).
 
 ---
 
