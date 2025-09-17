@@ -89,24 +89,3 @@ for i, (mean_f, worst_f) in enumerate(mean_worst_pairs, 1):
     plt.title(f"{mean_f} vs {worst_f}")
 plt.tight_layout()
 plt.show()
-
-
-# =======================
-# 6. Severity Index Creation & Visualization
-# =======================
-
-# Finding how well top correlated features separates
-#  malignant vs. benign cases
-
-scaler = MinMaxScaler()
-df_scaled = df.copy()
-df_scaled[top3_features] = scaler.fit_transform(df[top3_features])
-
-df['severity_index'] = df_scaled[top3_features].mean(axis=1)
-
-plt.figure(figsize=(6,5))
-sns.boxplot(x='diagnosis', y='severity_index', data=df, palette=['#2ca02c','#d62728'])
-plt.title("Severity Index by Diagnosis")
-plt.xlabel("Diagnosis (0=Benign, 1=Malignant)")
-plt.ylabel("Severity Index")
-plt.show()
