@@ -7,7 +7,7 @@
 # Breast Cancer Diagnosis Analysis (Wisconsin Dataset)
 
 This project explores the Breast Cancer Wisconsin dataset using Python, Pandas, Seaborn, and Matplotlib.  
-The analysis identifies which tumor features most strongly correlate with malignancy, visualizes feature relationships, and introduces a custom **Severity Index** to assess tumor risk.
+The analysis identifies which tumor features most strongly correlate with malignancy, visualizes feature relationships, and introduces a simple prediction model to predict whether a tumor has a higher chance of being malignant or not.
 
 ---
 
@@ -43,8 +43,7 @@ The analysis identifies which tumor features most strongly correlate with malign
 - Clustered heatmap showing relationships between features
 - Boxplots comparing top predictive features by diagnosis
 - Scatterplots comparing mean vs. worst tumor measurements
-- Custom **Severity Index** based on top features
-- Prediction model which shows the likihood of a tumor being malignant and benign
+- Prediction model which shows the likihood of a tumor being malignant and benign.
 
 ### Key Findings
 
